@@ -1,8 +1,10 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { MDBCol, MDBRipple, MDBRow} from 'mdb-react-ui-kit';
 
 const Contact = () => {
+  
   return (
     <div>
       <section className="top_1">
@@ -116,6 +118,25 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <MDBRow className="g-0 bg-light position-relative">
+      <MDBCol md="6" className="mb-md-0 p-md-4">
+        <img
+          src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+          className="w-100"
+          alt="..."
+        />
+      </MDBCol>
+      <MDBCol md="6" className="p-4 ps-md-0">
+        <h5 className="mt-0">Columns with stretched link</h5>
+        <p>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+          sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+          Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+          faucibus.
+        </p>
+        <a href="#" className="stretched-link">Go somewhere</a>
+      </MDBCol>
+    </MDBRow>
     </div>
   );
 };
