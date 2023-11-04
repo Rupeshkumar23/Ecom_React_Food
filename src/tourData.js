@@ -2,7 +2,7 @@ export const tourData = [
   {
     id: 1,
     city: "New York",
-    img: "../public/Pizza.jpg",
+    img: "https://images.pexels.com/photos/15564188/pexels-photo-15564188/free-photo-of-pancakes-with-berries-and-marple-syrup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     name: "New York Style Pizza",
     info: "New York-style pizza is known for its thin, foldable crust, with a wide range of toppings. It's a must-try when in NYC.",
   },
