@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Link, useRouteError } from "react-router-dom";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
@@ -17,6 +18,8 @@ const messageStyle = {
   fontWeight: "bold",
   margin: "20rem",
   color: "#AD343E",
+  border: "dashed 1em #e9e9e9",
+  borderRadius: "2em"
 };
 
 const messageStyle1 = {
@@ -38,7 +41,7 @@ export default function Error() {
         <OverlayTrigger
           overlay={
             <Tooltip id="tooltip-right">
-              <p className="fw-bold   text-danger">{error.data}</p>{" "}
+              <p className="fw-bold  text-danger">{error.data}</p>
             </Tooltip>
           }
           placement="right"

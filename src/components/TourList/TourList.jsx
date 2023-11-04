@@ -13,7 +13,7 @@ function TourList() {
   };
 
   return (
-    <Row className="tourlist p-4 " xs={1} md={2} lg={3} xl={4}>
+    <Row className="tourlist p-4" xs={1} md={2} lg={3} xl={4}>
       {tours.map((tour) => (
         <Col key={tour.id} className="mb-4" data-aos="fade-right">
           <Tour tour={tour} removeTour={removeTour} />

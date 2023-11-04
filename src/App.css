@@ -31,12 +31,12 @@
 }
 .close-btn{
   position: absolute;
-  font-size: 1.5rem;
-  z-index: 99;
+  font-size: 1.6rem;
   top: 0px;
   right: 0px;
-  background: #ffffff;
-  color: #000000; 
+  background: #000000;
+  border: 1px solid #fff;
+  color: #fff; 
   cursor: pointer;
 }
 .top_1{
@@ -47,8 +47,22 @@
   height: 800px;
   margin-top: 4rem;
   border-radius:1rem !important;
+}
+.Img_card{
+  height:300px;
+  object-fit: cover;
+  transform: scale(1);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
 
 }
+.Img_card:hover{
+	transform: scale(1.1);
+  cursor: pointer;
+}
+
+
 .img_2{
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
@@ -61,7 +75,9 @@
 
 .tour{
   position: relative;
-  background: #AD343E;
+  background-image: url('./components/Navbar/Imgs/low-poly-grid-haikei.png');
+  border: dashed 1em #ffffff;
+  border-radius: 2em;
 }
 .para{
   font-weight: lighter;
@@ -72,13 +88,10 @@ color: #ffffff;
 font-weight:700;
 }
 .tourlist{
-  background:#ffffff;
+  background:#fff
 }
 .Nav_bg{
   background-color:#474747;
-}
-.Nav_bg3{
-  background: #93e4c1;
 }
 .Nav_bg1{
   background-color:#AD343E ;
@@ -89,12 +102,13 @@ font-weight:700;
   outline: none;
   border: none;
   background: #ffffff;
-  color: #c51350;
+  color: #AD343E;
   font-weight: bold;
+  width: 100%;
 }
 .btn:hover{
   color: #ffffff;
-  background-color: #c51350!important;
+  background-color: #AD343E!important;
 }
 .form-floating input:focus + label {
   color: #AD343E !important;
