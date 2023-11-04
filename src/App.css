@@ -29,13 +29,14 @@
   border-radius: 2rem;
   color: #AD343E!important;
 }
-.fa-xmark{
+.close-btn{
   position: absolute;
   font-size: 1.5rem;
+  z-index: 99;
   top: 0px;
   right: 0px;
   background: #ffffff;
-  color: #c51350; 
+  color: #000000; 
   cursor: pointer;
 }
 .top_1{
@@ -59,13 +60,14 @@
 } */
 
 .tour{
+  position: relative;
   background: #AD343E;
 }
 .para{
   font-weight: lighter;
 }
 .tour-info{
-background: #050606;
+background: #000000;
 color: #ffffff;
 font-weight:700;
 }
