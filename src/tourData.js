@@ -2,7 +2,7 @@ export const tourData = [
   {
     id: 1,
     city: "New York",
-    img: "./Imgs/Pizza.jpg",
+    img: require('./Imgs/Pizza.jpg'),
     name: "New York Style Pizza",
     info: "New York-style pizza is known for its thin, foldable crust, with a wide range of toppings. It's a must-try when in NYC.",
   },
