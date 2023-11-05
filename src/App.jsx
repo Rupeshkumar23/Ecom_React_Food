@@ -5,7 +5,7 @@ import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./components/Navbar/Home";
-import TourList from "./components/TourList/TourList";
+import TourList from "./components/MenuList/MenuList";
 import About from "./components/Navbar/About";
 import Contact from "./components/Navbar/Contact";
 import Error from "./components/Navbar/Error";

@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Card, Button, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faCaretUp,faXmark} from '@fortawesome/free-solid-svg-icons';
+import Menucss from './Menu.module.css'
 function Tour({ tour, removeTour }) {
   const [showInfo, setShowInfo] = useState(false);
 
@@ -21,7 +22,7 @@ function Tour({ tour, removeTour }) {
         </span>
       </div>
       <Card.Body className="tour-info">
-        <Card.Title className="mb-2 text-black fw-bold text-center bg-white p-1">{tour.city}</Card.Title>
+        <Card.Title className="mb-2 text-black fw-bold text-center bg-white p-1 ">{tour.city}</Card.Title>
         <Card.Subtitle className="mb-2 text-black fw-bold text-center bg-white p-1">{tour.name}</Card.Subtitle>
         <Card.Text className='para'>
           {showInfo && <p>{tour.info}</p>}

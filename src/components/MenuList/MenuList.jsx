@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
-import Tour from "../Tour/Tour";
+import Tour from "../Menu/Menu";
 import { tourData } from "../../tourData";
 
 function TourList() {
